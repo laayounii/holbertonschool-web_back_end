@@ -3,6 +3,7 @@ const getListStudentIds = (students) => {
     if (!Array.isArray(students)) {
       return [];
     }
+  
     // Use the map function to return an array of student IDs
     return students.map((student) => student.id);
   };
